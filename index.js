@@ -5,4 +5,8 @@ app.get('/', function (req, res) {
   res.send('Hello World')
 })
 
+// EndPoint: /oi
+app.get("/oi", (req, res)=> {
+    res.send("Olá Mundo!")
+})
 app.listen(3000)
